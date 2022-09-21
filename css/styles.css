@@ -455,3 +455,8 @@ html{
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
   }
+
+  .icon-contacts{
+    margin-right: 10px;
+    fill: currentColor;
+    }
