@@ -400,8 +400,7 @@ margin-top: -30px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-.list-client{
+ .list-client{
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
