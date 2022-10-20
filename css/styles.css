@@ -634,11 +634,11 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
-width: 100%;
-transform: translate(-50%, -50%);
-max-width: 528px;
-min-height: 581px;
-background: #FFFFFF;
+ width: 100%;
+ transform: translate(-50%, -50%);
+ max-width: 528px;
+ min-height: 581px;
+ background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
@@ -656,4 +656,99 @@ background: #FFFFFF;
   width: 30px;
   height: 30px;
   background-color: transparent;
+  cursor: pointer;
+}
+
+.form-s{
+  color: var(--accent-color);
+  text-decoration-line: underline;
+}
+
+.button-form{
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 712px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  background: #2196F3;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  border: transparent;
+  margin: 0 auto;
+  display: block;
+}
+
+textarea{
+  resize: none;
+  width: 448px;
+  height: 120px;
+  left: 576px;
+  top: 518px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+}
+
+.form-fieled{
+margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+}
+
+.form-fieled input{
+  margin: 0;
+  padding: 10px 20px;
+  border: 1px solid rgba(33, 33, 33, 0.2); 
+  border-radius: 4px;
+  }
+  
+  .form-fieled label{
+      margin-bottom: 5px;
+  }
+
+
+.group{
+    margin-bottom: 20px;
+}
+
+.topic-options,
+.expirience-optios{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.topic-options li{
+    display: flex;
+    align-items: center;
+}
+
+.topic-options label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.uses {
+  background: #212121;
+}
+
+
+.name-for{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575; 
 }
