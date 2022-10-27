@@ -756,42 +756,52 @@ flex-direction: column;
 }
 
 .button-footer{
-  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   width: 200px;
-  left: 1185px;
-  top: 2787px;
   border-radius: 4px;  
   letter-spacing: 0.06em;
   cursor: pointer;
-  background: #2196F3;
+  background: var(--accent-color);
   color: #FFFFFF;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  margin-left: 12px;
-  margin-top: auto;
   border: transparent;
   fill: #FFFFFF;
   transition: color var(--animation), background-color var(--animation);
 }
 
 
+
 .button-footer:hover,
 .button-footer:focus {
-  background-color: #188ce8;
+  background-color: var(--accent-color);
+}
+
+.button-footer-name{
+  fill: currentColor;
+  margin-left: 10px;
 }
 
 .list-s{
-width: 358px;
-height: 50px;
-left: 815px;
-top: 2787px;
-margin-bottom: 20px;
-background:#2F303A;
-border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+width: 350px;
 border-radius: 4px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 16px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+color: rgba(255, 255, 255, 0.3);
+background-color:var(--hero-footer-background);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+line-height: 1.25;
+letter-spacing: 0.03em;
+margin-right: 12px;
+
 }
+
 
 .project-thumb {
   position: relative;
