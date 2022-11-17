@@ -1,0 +1,43 @@
+
+.about-us {
+    padding-top: 94px;
+}
+
+.about-us__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.about-us__item {
+    flex-basis: calc((100% - 30px * 4) / 4);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.about-us__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.about-us__text {
+    color: var(--secondary-text-color);
+}
+
+.about-us__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+
