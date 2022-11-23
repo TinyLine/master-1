@@ -1,5 +1,7 @@
 /* наша команда */
 .our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--primary-background-color);
 }
 
@@ -41,9 +43,9 @@
             flex-basis: calc((100% - 30px * 2) / 2);
             }
         
-            @media screen and (min-width: 1200px) {
-            flex-basis: calc((100% - 30px * 4) / 4);
-            }
+                        @media screen and (min-width: 1200px) {
+                            flex-basis: calc((100% - 30px * 4) / 4);
+                        }
 }
 
 .list-team__info {

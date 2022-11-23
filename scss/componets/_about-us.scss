@@ -11,9 +11,18 @@
 }
 
 .about-us__item {
-    flex-basis: calc((100% - 30px * 4) / 4);
+    flex-basis: calc((100% - 30px * 1) / 1);
     margin-left: 30px;
     margin-top: 30px;
+
+
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px * 2) / 2);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            flex-basis: calc((100% - 30px * 4) / 4);
+        }
 }
 
 .about-us__title {
@@ -27,7 +36,17 @@
 }
 
 .about-us__text {
+    font-size: 14px;
+    line-height: 1.14;
     color: var(--secondary-text-color);
+
+    @media screen and (min-width: 768px) {
+            text-justify: distribute-all-lines;
+        }
+    
+        @media screen and (min-width: 1200px) {
+        text-justify: distribute-all-lines;
+        }
 }
 
 .about-us__icon {

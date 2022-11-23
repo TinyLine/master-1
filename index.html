@@ -16,13 +16,12 @@
 </head>
 
 <body>
-
  
-<!--<header class="header">
+<header class="header">
   <div class="container">
     <nav class="navigation">
       <a href="./" class="logo link"><span class="logo__interactive">Web</span>Studio</a>
-      <ul class="list menu">
+      <ul class="menu">
         <li class="menu__item"><a href="./index.html" class="link menu__nav menu__current">Студія</a></li>
         <li class="menu__item"><a href="./portfolio.html" class="link menu__nav">Портфоліо</a></li>
         <li class="menu__item"><a href="" class="link menu__nav">Контакти</a></li>
@@ -36,7 +35,7 @@
             info@devstudio.com
           </a>
         </li>
-        <li><a href="tel:+380961111111" class="link header-contacts__contacts">
+        <li class="header-contacts__item"><a href="tel:+380961111111" class="link header-contacts__contacts">
             <svg class="header-contacts__icon-contacts" width="10" height="16">
               <use href="./img/icons/sprite.svg#icon-Vector2"></use>
             </svg>
@@ -44,9 +43,40 @@
       </ul>
     </nav>
   </div>
-</header> -->
+  
+  <button class="button-mobile header__button--menu" data-menu-button>
+    <svg class="icon-mobile " aria-label="Переключатель меню">
+      <use class="menu-icon" href="./img/icons/sprite.svg#icon-menu_24px.svg"></use>
+      <use class="menu-close" href="./img/icons/sprite.svg#close_24px"></use>
+    </svg>
+  </button>
+</header>
 
-  <!--<main>
+<div class="mobile-menu" data-menu>
+  <ul class="list mobile-menu__list">
+    <li class="mobile-menu__item"><a href="./index.html" class="link  mobile-menu__link mobail__current">Студія</a>
+    </li>
+    <li class="mobile-menu__item"><a href="./portfolio.html" class="link  mobile-menu__link">Портфоліо</a></li>
+    <li class="mobile-menu__item"><a href="" class="link  mobile-menu__link">Контакти</a></li>
+  </ul>
+  <ul class="list mobile-contacts">
+    <li class="mobile-contacts__item"><a href="tel:+380961111111" class="link mobile-contacts__tel">
+        +38 096 111 11 11</a></li>
+    <li class="mobile-contacts__item">
+      <a href="mailto:info@devstudio.com" class="link mobile-contacts__email">
+        info@devstudio.com
+      </a>
+    </li>
+  </ul>
+  <ul class="social-mobile list">
+    <li class="social-mobile__item"><a class="social-mobile__link" href=""></a>Instagram</li>
+    <li class="social-mobile__item"><a class="social-mobile__link" href=""></a>Twitter</li>
+    <li class="social-mobile__item"><a class="social-mobile__link" href=""></a>Facebook</li>
+    <li class="social-mobile__item"><a class="social-mobile__link" href=""></a>LinkedIn</li>
+  </ul>
+</div>
+  
+  <main>
     
     <section class="hero">
       <div class="container">
@@ -55,8 +85,8 @@
       </div>
     </section>
 
--->
-<!--   <section class="about-us">
+
+ <section class="about-us section">
       <div class="container">
         <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="list about-us__list">
@@ -118,7 +148,7 @@
         </ul>
       </div>
     </section>
--->
+
     <section class="our-work section">
       <div class="container">
         <h2 class="sections__title">Чим ми займаємося</h2>
@@ -323,7 +353,7 @@
     </section>
     </main>
 
-<!--
+
     <footer class="footer">
       <div class="container">
         <div class="widget-blok">
@@ -377,10 +407,11 @@
             </button>
           </form>
         </div>
--->
-<!--
+
+
       </div>
     </footer>
+    
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <h2 class="modal__title">Залиште свої дані, ми Вам зателефонуємо</h2>
@@ -440,6 +471,7 @@
         </form>
       </div>
     </div>
-  <script src="./modal.js"></script>
+  <script src="./js/mobile.js"></script>
+  <script src="./js/modal.js"></script>
  </body>
 </html>
