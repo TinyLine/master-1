@@ -124,7 +124,7 @@
 
 .join {
   margin-bottom: 20px;
-  margin-top: 60px;
+  margin-top: 40px;
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -188,7 +188,7 @@
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-@media screen and (min-width: 480px) {
+@media screen, (max-width: 480px) and (min-width: 480px) {
   .footer-form__button {
     margin-top: 20px;
   }
