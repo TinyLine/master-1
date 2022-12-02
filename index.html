@@ -80,7 +80,7 @@
     
     <section class="hero">
       <div class="container">
-        <h1 class="hero__title">Ефетивні рішення для вашого бізнесу</h1>
+        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
       </div>
     </section>
@@ -154,20 +154,37 @@
         <h2 class="sections__title">Чим ми займаємося</h2>
         <ul class="list our-work__list">
           <li class="our-work__overley our-work__item">
-            <img src="./img/img1.jpg" alt="Планшет на столі" width="370" />
+
+          <picture>
+            <source srcset="./images/desktop/img-one-desktop.jpg 1x, ./images/desktop/img-one@2x-desktop.jpg 2x"
+              media="(max-width: 1200px)" type="image/jpeg" />
+
+            <img src="./img/desktop/img-one-desktop.jpg" alt="Планшет на столі" width="370" />
+          </picture>
+
             <p class="our-works__text">ДЕСКТОПНІ ЗАСТОСУНКИ</p>
-
-
           </li>
           <li class="our-work__overley our-work__item">
-          <img src="./img/img2.jpg" alt="Телефон" width="370" />
-          <p class="our-works__text">ДЕСКТОПНІ ЗАСТОСУНКИ</p>
+
+            <picture>
+              <source srcset="./images/desktop/img-two-desktop.jpg 1x, ./images/desktop/img-two@2x-desktop.jpg 2x"
+                media="(max-width: 1200px)" type="image/jpeg" />
+            
+              <img src="./img/desktop/img-two-desktop.jpg" alt="Телефон" width="370" />
+            </picture>
+
+          <p class="our-works__text">МОБІЛЬНІ ЗАСТОСУНКИ</p>
           </li>
 
           <li class="our-work__overley our-work__item">
-            <img src="./img/img3.jpg" alt="Діаграма кольру на планшеті" width="370" />
-            <p class="our-works__text">ДЕСКТОПНІ ЗАСТОСУНКИ</p>
 
+            <picture>
+              <source srcset="./images/desktop/img-three-desktop.jpg 1x, ./images/desktop/img-three@2x-desktop.jpg 2x"
+                media="(max-width: 1200px)" type="image/jpeg" />
+              <img src="./img/desktop/img-three-desktop.jpg" alt="Діаграма кольру на планшеті" width="370" />
+            </picture>
+
+            <p class="our-works__text">ДИЗАЙНЕРСКІ РІШЕННЯ</p>
           </li>
         </ul>
       </div>
@@ -178,7 +195,19 @@
     <h2 class="sections__title">Наша команда</h2>
     <ul class="list-team list">
       <li class="list-team__member">
-        <img src="./img/img05.jpg" alt="Product Designer" width="270" />
+        <picture>
+          <picture>
+            <source srcset="./images/desktop/igor-desktop.jpg 1x, ./images/desktop/igor@2x-desktop.jpg 2x"
+              media="(max-width: 1200px)" type="image/jpeg" />
+          
+            <source srcset="./images/tablet/igor-tablet.jpg 1x, ./images/tablet/igor@2x-tablet.jpg 2x" media="(max-width: 768px)"
+              type="image/jpeg" />
+          
+            <source srcset="./images/mobile/igor-mobile.jpg 1x, ./images/mobile/igor@2x-mobile.jpg 2x" media="(max-width: 480px)"
+              type="image/jpeg" />
+            <img src="./img/desktop/igor-desktop.jpg" alt="Product Designer" width="450" />
+          </picture>
+        
         <div class="list-team__info">
           <h3 class="list-team__name">Ігор Дем’яненко</h3>
           <p class="list-team__position">Product Designer</p>
@@ -213,7 +242,19 @@
       </li>
 
       <li class="list-team__member">
-        <img src="./img/img00.jpg" alt="Frontend Developer" width="270" />
+        <picture>
+          <source srcset="./images/desktop/olga-desktop.jpg 1x, ./images/desktop/olga@2x-desktop.jpg 2x"
+            media="(max-width: 1200px)" type="image/jpeg" />
+        
+          <source srcset="./images/tablet/olga-tablet.jpg 1x, ./images/tablet/olga@2x-tablet.jpg 2x" media="(max-width: 768px)"
+            type="image/jpeg" />
+        
+          <source srcset="./images/mobile/olga-mobile.jpg 1x, ./images/mobile/olga@2x-mobile.jpg 2x" media="(max-width: 480px)"
+            type="image/jpeg" />
+        
+          <img src="./img/desktop/olga-desktop.jpg" alt="Frontend Developer" width="450" />
+        
+        </picture>
         <div class="list-team__info">
           <h3 class="list-team__name">Ольга Репіна</h3>
           <p class="list-team__position">Frontend Developer</p>
@@ -247,7 +288,19 @@
       </li>
 
       <li class="list-team__member">
-        <img src="./img/img002.jpg" alt="Marketing" width="270" />
+        <picture>
+          <source srcset="./images/desktop/mykola-desktop.jpg 1x, ./images/desktop/mykola@2x-desktop.jpg 2x"
+            media="(max-width: 1200px)" type="image/jpeg" />
+        
+          <source srcset="./images/tablet/mykola-tablet.jpg 1x, ./images/tablet/mykola@2x-tablet.jpg 2x"
+            media="(max-width: 768px)" type="image/jpeg" />
+        
+          <source srcset="./images/mobile/mykola-mobile.jpg 1x, ./images/mobile/mykola@2x-mobile.jpg 2x"
+            media="(max-width: 480px)" type="image/jpeg" />
+        
+          <img src="./img/desktop/mykola-desktop.jpg" alt="Frontend Developer" width="450" />
+        
+        </picture>
         <div class="list-team__info">
           <h3 class="list-team__name">Микола Тарасов</h3>
           <p class="list-team__position">Marketing</p>
@@ -279,7 +332,19 @@
       </li>
 
       <li class="list-team__member">
-        <img src="./img/img006.jpg" alt="UI Designer" width="270" />
+        <picture>
+          <source srcset="./images/desktop/muhailo-desktop.jpg 1x, ./images/desktop/muhailo@2x-desktop.jpg 2x"
+            media="(max-width: 1200px)" type="image/jpeg" />
+        
+          <source srcset="./images/tablet/muhailo-tablet.jpg 1x, ./images/tablet/muhailo@2x-tablet.jpg 2x"
+            media="(max-width: 768px)" type="image/jpeg" />
+        
+          <source srcset="./images/mobile/muhailo-mobile.jpg 1x, ./images/mobile/muhailo@2x-mobile.jpg 2x"
+            media="(max-width: 480px)" type="image/jpeg" />
+        
+          <img src="./img/desktop/muhailo-desktop.jpg" alt="Frontend Developer" width="450" />
+        
+        </picture>
         <div class="list-team__info">
           <h3 class="list-team__name">Михайло Єрмаков</h3>
           <p class="list-team__position">UI Designer</p>
